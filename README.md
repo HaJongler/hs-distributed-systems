@@ -1,2 +1,6 @@
-# hs-distributed-systems
-A repository for code I used for distributed systems class of 2020
+# Homework 2
+Usage:   
+```
+$ docker-compose up -d --build  
+$ curl -i http://192.168.99.100:5000/
+```
