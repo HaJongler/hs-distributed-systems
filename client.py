@@ -10,7 +10,7 @@ def main():
     args = parser.parse_args()
 
     server = ServerProxy('http://localhost:8000')
-    print(getattr(server, args.operation)(args.first_number, args.first_number))
+    print(getattr(server, args.operation)(args.first_number, args.second_number))
 
 
 if __name__ == '__main__':
