@@ -1,2 +1,8 @@
 # hs-distributed-systems
-A repository for code I used for distributed systems class of 2020
+To use this system:  
+```
+$ python server.py &
+$ python client.py operation first_number second_number
+```
+
+operation can be `[pow, add, mul, div]`
