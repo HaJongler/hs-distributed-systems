@@ -1,2 +1,4 @@
 # hs-distributed-systems
-A repository for code I used for distributed systems class of 2020
+
+To use this code:
+`$ cat <input_file> | ./count_mapper.py | sort | ./sum_recuder.py | sort -k2,2n > <output_file>`
